@@ -1,0 +1,418 @@
+body{
+	margin : 0;
+	padding :0;
+	font-family:'Lato',sans-serif;
+	font-size:16px;
+
+	/*background: url('pics/swiftcart1.jpg')no-repeat;*/
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+Mahmudul Hasan Sifat
+.signin{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+   
+}
+.signin ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60%;
+    padding: 10px;
+}
+.signin ul li{
+    padding: 0 10px;
+}
+.signin ul li a{
+    text-decoration: none;
+    color: #6b60ec;
+}
+
+.signin .sub1{
+    width: auto;
+    height: auto;
+    display: none;
+}
+.signin ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    color: #1d1d1d;
+    margin-left: -20px;
+}
+.signin ul li:hover .sub1 ul{
+    display: block;
+    margin: 10px;
+}
+.signin ul li:hover .sub1 ul li{
+    
+    padding: 5px;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+.logo a{
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.2) ;
+    font-weight: bold;
+    color: #2f2e41;
+    font-size: 2rem;
+    letter-spacing: 1;
+}
+.searcharea{
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid rgba(167, 158,245,0.1);
+    
+}
+
+.searchbox input{
+width: 100PX;
+height: 45PX;
+border: none;
+outline: NONE;
+background-color: transparent;
+color: #1f1f1f;
+font-size: 1rem;
+padding: 0px 10px;
+}
+.searchbox .fa-magnifying-glass {
+    margin-left: 19px;
+}
+.searchbox input::placeholder{
+    color: #1d1d1d;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: o.8rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.section1{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15% , -50%);
+}
+.section1 img{
+    height: 300px;
+}
+.section1button{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%, -50%);
+}
+
+.section1button h1, h2{
+    font-family: robot;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 60px;
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+    letter-spacing: 3px;
+    color: #3d3d4a;
+    text-transform: uppercase;
+}
+span{
+    color: #7a72ff;
+}
+.section1button h1{
+    letter-spacing: 33px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10%/ 50% 50% 50% 50%;
+    margin-top: 20PX;
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5PX;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+}
+.btn:hover{
+    color: white;
+    background-color: #7a72ff;
+    transition: all ease 0.5s; 
+}
+.icon{
+     position: fixed;
+     left: 30px;
+     top: 50%;
+     transform: translatey(-50%);
+     border-radius: 20px;
+     background-color: #FFF;
+     box-shadow: 2PX 2PX 30PX rgba(0,0,0,0.2);
+     padding: 5PX 0PX;
+     Z-INDEX:1;
+}
+
+.icon a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+
+}
+.icon a i{
+    color: rgba(0,0,0,0.);
+}
+
+.icon a:hover .fa-facebook{
+    color: #3b5998;
+}
+
+.icon a:hover .fa-twitter{
+    color: #00acee;
+}
+
+.icon a:hover .fa-youtube{
+    color: #ff0000;
+}
+
+.icon a:hover .fa-instagram{
+    color: #3f729b
+}
+
+.productsection{
+    width: 85%;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+}
+
+.productsection > h3{
+
+    margin: 20px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+    font-family: myraid pro;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2rem;
+    color: #323543;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.productbox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+}
+.productbox img{
+    height: 180px;
+}
+
+.productbox p{
+    color: #3f729b;
+    font-family: myriad pro;
+    font-size: 0.9rem;
+    letter-spacing: 0.5;
+}
+
+.productbox a{
+    color: #2c2c2c;
+    font-family: poppins;
+    font-size: 1 rem;
+}
+.buybtn{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    border-radius: 15% 15% 15% 15%/ 50% 50% 50% 50%;
+    background: linear-gradient(120deg, #6b60ec 20%, #a166f4);
+    color: #fff;
+    display: none;
+    animation: fade 0.2s;
+}
+
+.productbox:hover .buybtn{
+    display: flex;
+}
+.productbox:hover{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+}
+.productbox:hover a:last-child{
+    color: #fff;
+    transform:  all ease 0.3s;
+}
+
+.about{
+    display: flex;
+    width: 85%;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 150px !important;
+}
+
+.aboutbox{
+    width: 40%;
+    font-family: myriad pro;
+}
+
+.aboutbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.aboutbox h1{
+    color: #333333;
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin: 0px;
+}
+.aboutbox h4{
+    color: #333333;
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.aboutbox p{
+    font-size: 1re;
+    color: #bdbdbd;
+    letter-spacing: 0.5px;
+}
+
+.notification{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.notification h3{
+    font-size: 2rem;
+    color: rgb(56,56,56);
+}
+
+.notisearch{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+
+}
+
+.notification input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.notibtn{
+    width: 120px;
+    height: 40px;
+    background-color: #202020;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;;
+}
+
+.notibtn:hover{
+    color: white;
+    background-color: #7a72ff;
+    transition: all ease 0.5s;
+}
+
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+}
