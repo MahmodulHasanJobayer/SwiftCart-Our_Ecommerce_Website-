@@ -19,9 +19,9 @@ PHP<br>
 SQL<br>
 
 <b>Project Goals</b><br>
-Build a scalable full-stack e-commerce platform<br>
-Improve user shopping experience<br>
-Practice modern web development technologies<br>
+Building a scalable full-stack e-commerce platform<br>
+Improving user shopping experience<br>
+To practice modern web development technologies<br>
 
 <b>Future Improvements</b><br>
 Payment gateway integration<br>
