@@ -23,9 +23,3 @@ Building a scalable full-stack e-commerce platform<br>
 Improving user shopping experience<br>
 To practice modern web development technologies<br>
 
-<b>Future Improvements</b><br>
-Payment gateway integration<br>
-Order tracking system<br>
-Admin dashboard<br>
-Product search and filtering<br>
-Wishlist feature<br>
